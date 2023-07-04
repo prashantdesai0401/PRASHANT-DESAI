@@ -1,0 +1,49 @@
+.btn {
+  height: 62px;
+  color: rgb(255,255,255);
+  border: 1px solid var(--bs-white);
+  padding: 18px 46px;
+  --bs-primary-rgb: 255,255,255;
+}
+
+.btn-outline-primary:hover {
+  color: black;
+  background-color: white;
+  border-color: white;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+header {
+  width: 100vw;
+  height: 100vh;
+  /*background: #000000;*/
+}
+
+section {
+  position: relative;
+  z-index: 2;
+}
+
+header {
+  z-index: -1;
+}
+
+#name_designation {
+  position: fixed;
+}
+
+.container img {
+  transition: transform .2s;
+}
+
+.container img:hover {
+  transform: scale(1.05);
+}
+
+section a {
+  text-decoration: none;
+}
+
